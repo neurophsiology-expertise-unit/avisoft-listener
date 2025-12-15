@@ -25,6 +25,7 @@ This tool allows a remote Controller Computer to trigger playlists and recording
 1. Clone this repository:
 
     git clone https://github.com/YOUR_USERNAME/avisoft-listener.git
+
     cd avisoft-listener
 
 2. Install the required Python dependency:
@@ -37,7 +38,7 @@ This tool allows a remote Controller Computer to trigger playlists and recording
 
 Open `listener.py` to adjust the connection settings if necessary:
 
-- **UDP_PORT:** Default is `5005`. Ensure your Controller Computer sends packets to this port.
+- **UDP_PORT:** Default is `5000`. Ensure your Controller Computer sends packets to this port.
 - **DDE Service:** Default is `"RECORDER"`. [cite_start]If you are running a second instance of Avisoft, change this to `"RECORDER2"`[cite: 1503].
 
 ## Usage

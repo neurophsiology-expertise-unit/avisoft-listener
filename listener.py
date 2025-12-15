@@ -36,7 +36,7 @@ def udp_listener():
     Listens for UDP packets from the Controller Computer.
     """
     UDP_IP = "0.0.0.0" # Listen on all interfaces
-    UDP_PORT = 5005    # Match this port on your Controller Computer
+    UDP_PORT = 5000    # Match this port on your Controller Computer
     
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     sock.bind((UDP_IP, UDP_PORT))
